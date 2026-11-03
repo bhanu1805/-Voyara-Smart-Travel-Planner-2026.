@@ -1,0 +1,17 @@
+{
+  "name": "smart-travel-planner-v3",
+  "version": "3.0.0",
+  "description": "Smart Travel Planner with live location, nearby places, real weather, accounts, reviews, currency, route-aware itineraries, group trips, voice/LLM chat, booking search, disruptions, photo search, PWA and analytics.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.4.7"
+  }
+}
